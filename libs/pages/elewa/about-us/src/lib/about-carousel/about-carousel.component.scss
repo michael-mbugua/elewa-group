@@ -1,0 +1,116 @@
+  .footer-container{
+    margin-right: 60px;
+    margin-left: 20px;
+    background-color: hsl(0, 0%, 98%);
+  }
+
+  body{
+    font-family: "adobe-clean", sans-serif;
+  }
+
+  h2{
+    font-weight: 100;
+    font-size: xx-large;
+  }
+  
+.Rtable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 87%;
+  right: 10%;
+  margin-bottom: 0%;
+}
+.Rtable-cell {
+  flex-grow: 2;
+  width: 100%;  
+  list-style: none;
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+  right: 2%;
+}
+
+.Rtable--4cols > .Rtable-cell  { width: 33.33%; }
+
+ .Rtable {
+    margin: 0px;
+  position: relative;
+}
+
+.line {
+   width: 443px;
+   height: 1px;
+   display: inline-flex;
+   position: relative;
+   background: black;
+   top: -24px;
+   left: 50%;
+   margin: 0 auto;
+}
+.carousel{
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    text-align: start;
+    margin-top: 0;
+}
+.carousel .header{
+    text-align: start;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-around;
+}
+.year{
+    margin-bottom: 10px;
+}
+.title{
+    margin-top: 5px;
+}
+
+.history{
+    margin-top: 5px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px;
+    background-color: hsl(0, 0%, 90%);
+    text-align: start;
+}
+.footer-container .header{
+    margin-left: 50px;
+    text-align: start;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.footer-container .Rtable{
+    align-items: start;
+    margin-left: 0%;
+    justify-content: space-around;
+}
+.carousel .Rtable{
+    display: flex;
+
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    margin-top: 0;
+}
